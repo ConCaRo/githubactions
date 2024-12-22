@@ -17,3 +17,9 @@ jobs:
       - uses: actions/checkout@v4
       - name: Run job 2
         run: echo $GITHUB_WORKSPACE
+  job3:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run job 3
+        run: echo $GITHUB_WORKSPACE

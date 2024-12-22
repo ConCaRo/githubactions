@@ -12,7 +12,7 @@ jobs:
       - name: Run job 1
         run: echo $GITHUB_WORKSPACE
   job2:
-    runs-on: window-latest
+    runs-on: windows-latest
     steps:
       - uses: actions/checkout@v4
       - name: Run job 2
